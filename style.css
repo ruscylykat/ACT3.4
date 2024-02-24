@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(20px);
+    min-height: 100vh;
+    
+}
+
+.con1{
+    display: grid; grid-template-columns: auto auto auto;
+    place-items: center;
+    text-align: center;
+    transform: translateY(50px);
+
+}
+
+.con2{
+    transform: translateY(110px);
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    padding: 20px;
+}
+
+#display-grades{
+    font-family: "Protest Strike", sans-serif;
+}
+h1{
+    margin: 20px;
+    font-family: "Protest Strike", sans-serif;
+}
+
+p{
+    margin: 20px;
+    font-family: "Inria Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.overall{
+    text-align: center;
+    transform: translateY(50px);
+}
+
+button{
+    padding: 2%;
+}
